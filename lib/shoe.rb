@@ -14,6 +14,6 @@ class Shoe
     puts "Your shoe is as good as new!"
   end
   
-  BRANDS = BRAND.uniq
+  BRANDS = BRAND
   
 end
