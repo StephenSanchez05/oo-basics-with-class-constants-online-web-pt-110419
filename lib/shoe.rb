@@ -9,6 +9,7 @@ class Shoe
     BRANDS.each do |compare|
       if brand != compare
         BRANDS << brand
+      end
     end
   end
 
