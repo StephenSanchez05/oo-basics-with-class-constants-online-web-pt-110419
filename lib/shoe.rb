@@ -3,14 +3,12 @@ class Shoe
   attr_reader :brand
   
   BRANDS = []
+  BRANDS = BRANS.uniq
 
   def initialize(brand)
     @brand = brand
-    BRANDS.map do |compare|
-      if brand != compare
-        BRANDS << brand
-      end
-    end
+    BRANDS << brand 
+  end
   end
 
   def cobble
