@@ -6,7 +6,7 @@ class Shoe
 
   def initialize(brand)
     @brand = brand
-    BRANDS.each do |compare|
+    BRANDS.map do |compare|
       if brand != compare
         BRANDS << brand
       end
